@@ -2,6 +2,9 @@ void setup() {
 	size(500, 500);
 }
 
+int rectangle = 150;
+int circle = 250;
+
 void draw() {
 // Step 1: Write code that draws the following screenshots 
 // with hard-coded values. (Feel free to use colors 
@@ -18,8 +21,11 @@ void draw() {
 
   background(255);
   stroke(0);
-
-
+  fill(10);
+  rect (rectangle,rectangle,200,200);
+  fill(255,0,0);
+  ellipse(circle,circle,100,100);
+  circle+=1
   
 
 }
